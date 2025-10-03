@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../sistema.js"defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Sistema fotovoltaico</a>
+            <a href="./funcionamento.html">Operação do sistema</a>
+            <a href="./placassolares.html">Placas solares</a>
+            <a href="./radiacaosolar.html">Radiação solar</a>
+            <a href="./sistema.html">Calculadora</a>
+        </nav>
+    </header>
+    <h1>Sistema para calcular </h1>
+    
+    <label for="volts">Digite a qualtidade de volts</label><br>
+    <input type="text" id="volts"><br><br>
+
+    <label for="placas">Digite a quatidade de placas</label><br>
+    <input type="text" id="placas"><br><br>
+
+    <button onclick="principal()">Calcular</button><br>
+    <div id="resposta"></div>
